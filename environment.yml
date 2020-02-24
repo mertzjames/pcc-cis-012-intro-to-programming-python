@@ -1,0 +1,10 @@
+name: cis012
+channels:
+  - defaults
+dependencies:
+  - python=3
+  - pylint
+  - ipython
+  - jupyter
+  - nbtutor
+prefix: /Users/mertz/anaconda3/envs/cis012
