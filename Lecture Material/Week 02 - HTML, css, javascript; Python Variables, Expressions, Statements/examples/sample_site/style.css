@@ -1,0 +1,26 @@
+/* Comments are created by using the forward slash and asterisk followed by the astrisk and forward slash */
+p {
+    color: green;
+    width: 500px;
+}
+
+ul {
+    color: red;
+}
+
+ol {
+    color: orchid;
+}
+
+table {
+    border: 1px solid black;
+    width: 600px;
+}
+
+
+
+/*
+body {
+    padding-top: 1000px;
+}
+*/
