@@ -16,3 +16,5 @@ These notebooks are adapted from content from the following sources:
 ## Reference Material
 
 ## How to Contribute
+
+- Create a pull request!
