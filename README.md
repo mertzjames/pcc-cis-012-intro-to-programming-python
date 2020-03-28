@@ -5,7 +5,7 @@ using Python as taught by James Mertz.
 
 These notebooks are adapted from content from the following sources:
 
-- Python for Everybody
+- Python for Everybody by Charles Severance
 - Python Basics by Real Python
 - Clean Coding by Robert Martin
 
