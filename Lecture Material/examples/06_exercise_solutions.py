@@ -58,3 +58,61 @@ print(monster)
 
 for monster in pokemon:
     print(monster.upper())
+
+
+# food = ['rice', 'beans']
+# print(food)
+
+# food.append('broccoli')
+# print(food)
+
+# food.extend(['pizza', 'bread'])
+# print(food)
+
+# print(food[0:2])
+# print(food[:2])
+
+# print(food[4])
+# print(food[len(food) - 1])
+# print(food[-1])
+
+# breakfast = 'eggs,fruit,orange juice'.split(',')
+# print(breakfast)
+# print(len(breakfast))
+
+# # Exercise 8
+# numbers = []
+
+# while True:
+#     # first we want to prompt the user for an input
+#     val = input("Please enter a number: ")
+
+#     # next let's check if the user wants to stop
+#     if val == 'stop':
+#         # if user says stop, stop
+#         break
+
+#     # if not, add user input to list
+#     val = float(val)
+#     numbers.append(val)
+
+# avg = sum(numbers) / len(numbers)
+# min_val = min(numbers)
+# max_val = max(numbers)
+
+# print(f"Your avg is {avg}")
+# print(f"Your min is {min_val}")
+# print(f"Your max is {max_val}")
+
+
+pokedex = {}
+print(pokedex)
+
+pokedex['Venosaur'] = ['Grass', 'Poisen']
+pokedex['Charizard'] = ['Fire', 'Flying']
+pokedex['Blastoise'] = ['Water']
+print(pokedex)
+print(pokedex['Venosaur'][0])
+
+del pokedex['Blastoise']
+print(pokedex)
