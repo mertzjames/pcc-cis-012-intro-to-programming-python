@@ -1,0 +1,5 @@
+"the" appears 2 times in line 1
+"the" appears 0 times in line 2
+"the" appears 1 times in line 3
+"the" appears 0 times in line 4
+"the" appears 8 times in line 5
