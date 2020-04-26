@@ -33,4 +33,4 @@ class Pokemon():
         self.level = level
         self.start_hp = start_hp
         self.poke_type = poke_type
-        self.move_list = move_list
+        self.move_list = move_list  
