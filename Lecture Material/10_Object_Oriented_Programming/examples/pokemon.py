@@ -1,36 +1,13 @@
+class EnergyType():
+    pass
 
-
-class Pokemon():
-    def __init__(self, name, level, start_hp, poke_type):
-        self.name = name
-        self.level = level
-        self.start_hp = start_hp
-        self.poke_type = poke_type
-
-
-
-
-class Pokemon():
-    def __init__(self, name, level, start_hp, poke_type, move_list):
-        self.name = name
-        self.level = level
-        self.start_hp = start_hp
-        self.poke_type = poke_type
-        self.move_list = move_list
-
-
-# Complete example below
 
 class Move():
-    def __init__(self, name, power):
+    def __init__(self, name, base_damage):
         self.name = name
-        self.power = power
-    
+        self.base_damage = base_damage
+        self.energy_cost = energy_cost
 
 class Pokemon():
-    def __init__(self, name, level, start_hp, poke_type, move_list):
-        self.name = name
-        self.level = level
-        self.start_hp = start_hp
-        self.poke_type = poke_type
-        self.move_list = move_list  
+    def __init__(self, name, energy_types, move_list):
+
