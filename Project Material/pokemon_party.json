@@ -1,0 +1,529 @@
+[
+  {
+    "artist": "Ken Sugimori",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "20",
+        "name": "Whirlwind",
+        "text": "If your opponent has any Benched Pokemon, he or she chooses 1 of them and switches it with the Defending Pokemon. (Do the damage before switching the Pokemon.)"
+      },
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "",
+        "name": "Mirror Move",
+        "text": "If Pidgeotto was attacked last turn, do the final result of that attack on Pidgeotto to the Defending Pokemon."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": "Pidgey",
+    "hp": "60",
+    "id": "base1-22",
+    "imageUrl": "https://images.pokemontcg.io/base1/22.png",
+    "imageUrlHiRes": "https://images.pokemontcg.io/base1/22_hires.png",
+    "name": "Pidgeotto",
+    "nationalPokedexNumber": 17,
+    "number": "22",
+    "rarity": "Rare",
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "series": "Base",
+    "set": "Base",
+    "setCode": "base1",
+    "subtype": "Stage 1",
+    "supertype": "Pokemon",
+    "types": [
+      "Colorless"
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "x2"
+      }
+    ]
+  },
+  {
+    "artist": "Ken Sugimori",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Fighting"
+        ],
+        "damage": "10",
+        "name": "Sand-attack",
+        "text": "If the Defending Pokemon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "hp": "40",
+    "id": "base4-91",
+    "imageUrl": "https://images.pokemontcg.io/base4/91.png",
+    "imageUrlHiRes": "https://images.pokemontcg.io/base4/91_hires.png",
+    "name": "Sandshrew",
+    "nationalPokedexNumber": 27,
+    "number": "91",
+    "rarity": "Common",
+    "resistances": [
+      {
+        "type": "Lightning",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "series": "Base",
+    "set": "Base Set 2",
+    "setCode": "base4",
+    "subtype": "Basic",
+    "supertype": "Pokemon",
+    "types": [
+      "Fighting"
+    ],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "x2"
+      }
+    ]
+  },
+  {
+    "artist": "Tomoaki Imakuni",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "",
+        "name": "Conversion 1",
+        "text": "If the Defending Pokemon has a Weakness, you may change it to a type of your choice other than Colorless."
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "",
+        "name": "Conversion 2",
+        "text": "Change Porygon's Resistance to a type of your choice other than Colorless."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "hp": "30",
+    "id": "base1-39",
+    "imageUrl": "https://images.pokemontcg.io/base1/39.png",
+    "imageUrlHiRes": "https://images.pokemontcg.io/base1/39_hires.png",
+    "name": "Porygon",
+    "nationalPokedexNumber": 137,
+    "number": "39",
+    "rarity": "Uncommon",
+    "resistances": [
+      {
+        "type": "Psychic",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "series": "Base",
+    "set": "Base",
+    "setCode": "base1",
+    "subtype": "Basic",
+    "supertype": "Pokemon",
+    "types": [
+      "Colorless"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "x2"
+      }
+    ]
+  },
+  {
+    "artist": "Masako Yamashita",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "10x",
+        "name": "Tail Rap",
+        "text": "Flip 2 coins. This attack does 10 damage times the number of heads."
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Fire",
+          "Colorless"
+        ],
+        "damage": "20",
+        "name": "Flare",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "hp": "50",
+    "id": "ecard1-97",
+    "imageUrl": "https://images.pokemontcg.io/ecard1/97.png",
+    "imageUrlHiRes": "https://images.pokemontcg.io/ecard1/97_hires.png",
+    "name": "Charmander",
+    "nationalPokedexNumber": 4,
+    "number": "97",
+    "rarity": "Common",
+    "retreatCost": [
+      "Colorless"
+    ],
+    "series": "E-Card",
+    "set": "Expedition Base Set",
+    "setCode": "ecard1",
+    "subtype": "Basic",
+    "supertype": "Pokemon",
+    "types": [
+      "Fire"
+    ],
+    "weaknesses": [
+      {
+        "type": "Water",
+        "value": "x2"
+      }
+    ]
+  },
+  {
+    "artist": "Keiji Kinebuchi",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Fighting"
+        ],
+        "damage": "10",
+        "name": "Dig",
+        "text": ""
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Fighting",
+          "Fighting"
+        ],
+        "damage": "30",
+        "name": "Mud Slap",
+        "text": ""
+      }
+    ],
+    "hp": "30",
+    "id": "base4-71",
+    "imageUrl": "https://images.pokemontcg.io/base4/71.png",
+    "imageUrlHiRes": "https://images.pokemontcg.io/base4/71_hires.png",
+    "name": "Diglett",
+    "nationalPokedexNumber": 50,
+    "number": "71",
+    "rarity": "Common",
+    "resistances": [
+      {
+        "type": "Lightning",
+        "value": "-30"
+      }
+    ],
+    "series": "Base",
+    "set": "Base Set 2",
+    "setCode": "base4",
+    "subtype": "Basic",
+    "supertype": "Pokemon",
+    "types": [
+      "Fighting"
+    ],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "x2"
+      }
+    ]
+  },
+  {
+    "ability": {
+      "name": "Damage Swap",
+      "text": "As often as you like during your turn (before your attack), you may move 1 damage counter from 1 of your Pokemon to another as long as you don't Knock Out that Pokemon. This power can't be used if Alakazam is Asleep, Confused, or Paralyzed.",
+      "type": "Pokemon Power"
+    },
+    "artist": "Ken Sugimori",
+    "attacks": [
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Psychic",
+          "Psychic",
+          "Psychic"
+        ],
+        "damage": "30",
+        "name": "Confuse Ray",
+        "text": "Flip a coin. If heads, the Defending Pokemon is now Confused."
+      }
+    ],
+    "convertedRetreatCost": 3,
+    "evolvesFrom": "Kadabra",
+    "hp": "80",
+    "id": "base4-1",
+    "imageUrl": "https://images.pokemontcg.io/base4/1.png",
+    "imageUrlHiRes": "https://images.pokemontcg.io/base4/1_hires.png",
+    "name": "Alakazam",
+    "nationalPokedexNumber": 65,
+    "number": "1",
+    "rarity": "Rare",
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ],
+    "series": "Base",
+    "set": "Base Set 2",
+    "setCode": "base4",
+    "subtype": "Stage 2",
+    "supertype": "Pokemon",
+    "types": [
+      "Psychic"
+    ],
+    "weaknesses": [
+      {
+        "type": "Psychic",
+        "value": "x2"
+      }
+    ]
+  },
+  {
+    "artist": "Ken Sugimori",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Fighting"
+        ],
+        "damage": "20",
+        "name": "Jab",
+        "text": ""
+      },
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Fighting",
+          "Fighting",
+          "Colorless"
+        ],
+        "damage": "40",
+        "name": "Special Punch",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 2,
+    "hp": "70",
+    "id": "base4-8",
+    "imageUrl": "https://images.pokemontcg.io/base4/8.png",
+    "imageUrlHiRes": "https://images.pokemontcg.io/base4/8_hires.png",
+    "name": "Hitmonchan",
+    "nationalPokedexNumber": 107,
+    "number": "8",
+    "rarity": "Rare",
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "series": "Base",
+    "set": "Base Set 2",
+    "setCode": "base4",
+    "subtype": "Basic",
+    "supertype": "Pokemon",
+    "types": [
+      "Fighting"
+    ],
+    "weaknesses": [
+      {
+        "type": "Psychic",
+        "value": "x2"
+      }
+    ]
+  },
+  {
+    "artist": "Ken Sugimori",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "30",
+        "name": "Leek Slap",
+        "text": "Flip a coin. If tails, this attack does nothing. Either way, you can't use this attack again as long as Farfetch'd stays in play (even putting Farfetch'd on the Bench won't let you use it again.)"
+      },
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "30",
+        "name": "Pot Smash",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "hp": "50",
+    "id": "base1-27",
+    "imageUrl": "https://images.pokemontcg.io/base1/27.png",
+    "imageUrlHiRes": "https://images.pokemontcg.io/base1/27_hires.png",
+    "name": "Farfetch'd",
+    "nationalPokedexNumber": 83,
+    "number": "27",
+    "rarity": "Uncommon",
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "series": "Base",
+    "set": "Base",
+    "setCode": "base1",
+    "subtype": "Basic",
+    "supertype": "Pokemon",
+    "types": [
+      "Colorless"
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "x2"
+      }
+    ]
+  },
+  {
+    "artist": "Kimiya Masago",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Metal",
+          "Colorless"
+        ],
+        "damage": "20+",
+        "name": "Steel Beak",
+        "text": "Flip a coin. If heads, this attack does 20 damage plus 10 more damage."
+      },
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "",
+        "name": "Air Cutter",
+        "text": "Flip a coin. If tails, this attack does nothing."
+      }
+    ],
+    "convertedRetreatCost": 2,
+    "hp": "60",
+    "id": "ecard1-27",
+    "imageUrl": "https://images.pokemontcg.io/ecard1/27.png",
+    "imageUrlHiRes": "https://images.pokemontcg.io/ecard1/27_hires.png",
+    "name": "Skarmory",
+    "nationalPokedexNumber": 227,
+    "number": "27",
+    "rarity": "Rare",
+    "resistances": [
+      {
+        "type": "Grass",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "series": "E-Card",
+    "set": "Expedition Base Set",
+    "setCode": "ecard1",
+    "subtype": "Basic",
+    "supertype": "Pokemon",
+    "types": [
+      "Metal"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "x2"
+      }
+    ]
+  },
+  {
+    "artist": "Kyoko Umemoto",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "",
+        "name": "Razor Wind",
+        "text": "Flip a coin. If tails, this attack does nothing."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "hp": "40",
+    "id": "ecard1-130",
+    "imageUrl": "https://images.pokemontcg.io/ecard1/130.png",
+    "imageUrlHiRes": "https://images.pokemontcg.io/ecard1/130_hires.png",
+    "name": "Spearow",
+    "nationalPokedexNumber": 21,
+    "number": "130",
+    "rarity": "Common",
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "series": "E-Card",
+    "set": "Expedition Base Set",
+    "setCode": "ecard1",
+    "subtype": "Basic",
+    "supertype": "Pokemon",
+    "types": [
+      "Colorless"
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "x2"
+      }
+    ]
+  }
+]
