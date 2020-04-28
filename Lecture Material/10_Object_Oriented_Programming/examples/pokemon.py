@@ -1,4 +1,15 @@
 class Pokemon():
+    """A class to represent a Pokemon
+
+    Attributes
+    ----------
+    name : str
+        the name of the pokemon
+    level : int
+        the pokemon level
+    hp : int
+        the current HP level of the pokemon
+    # """
     generation = 'base'
 
     def __init__(self, name, level, start_hp, energy_type, moves):
@@ -15,7 +26,7 @@ class Pokemon():
         return f'Pokemon: {self.name} with {self.hp} HP left'
 
 class WaterPokemon(Pokemon):
-    def __init__(self, name, level, start_hp, moves):
+    def __init__(self, name:str, level:int, start_hp:int, moves:tuple):
         super().__init__(name, level, start_hp, 'water', moves)
         self.energy_type = 'post_water'
 
@@ -35,3 +46,5 @@ print(poliwag.energy_type)
 
 # battle(poliwag, starmie)
 
+def my_func(var1: int, var2:str) -> str:
+    return var2 * var1
