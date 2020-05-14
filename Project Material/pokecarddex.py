@@ -3,7 +3,7 @@ PokeCardDex template.  This is a template file that is used to
 """
 
 class Pokemon():
-    def __init__(self, name, start_hp, energy_type, weakness, resiliance, moves):
+    def __init__(self, name, start_hp, energy_type, weakness, resistence, moves):
         pass
 
 

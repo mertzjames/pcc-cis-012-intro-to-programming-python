@@ -13,7 +13,7 @@ To simplify the behavior of this game, we'll only be working with Pokemon cards.
 
 - selecting a move (if there are multiple)
 - attacking your opponent
-- calculating the damage which is: `base_damage * opposing_weakness (default 1) - opposing resilience
+- calculating the damage which is: `base_damage * opposing_weakness (default 1) - opposing resistence
 - subtracting the damage from the opposition's HP
 
 This is done for both sides until a pokemon has reached 0 HP, at which point the pokemon has fainted and a new Pokemon must be selected.  The loser is when their party has been eliminated.  Let's take Meowth for example:
@@ -98,6 +98,8 @@ The following are some assumptions that you can take when designing this:
 - The opposing team always goes first.
 - The pokemon name will be unique.
 - The pokemon order will be set before performing a battle.
+- If the attack damage has a modifier such as `+`, then assume that modifier is null (or 0). (Except coin flips).
+- If the attack damage is empty (most likely due to a more complicated attack) assume a damage of 5 hp.
 
 ## Expected Behaviors
 
