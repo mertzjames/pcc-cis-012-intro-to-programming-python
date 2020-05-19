@@ -14,5 +14,5 @@ def grab_random_pokemon(mast_list_path, party_list_path):
 
 if __name__ == '__main__':
     master_list_path = 'pokemon_master_list.json'
-    party_list_path = f'pokemon_party_{datetime.datetime.now()}'
+    party_list_path = f'pokemon_party_{datetime.date.today()}.json'
     grab_random_pokemon(master_list_path, party_list_path)
