@@ -5,6 +5,7 @@ Oh No!  Ash’s pokecardex is broken!  Before Ash was a pokemon trainer, he prac
 ## The Pokemon Card Game Overview
 
 The pokemon card game consists of three different types of Pokemon cards:
+
 - Trainer
 - Pokemon
 - Energy
@@ -18,7 +19,7 @@ To simplify the behavior of this game, we'll only be working with Pokemon cards.
 
 This is done for both sides until a pokemon has reached 0 HP, at which point the pokemon has fainted and a new Pokemon must be selected.  The loser is when their party has been eliminated.  Let's take Meowth for example:
 
-![](meowth_card.png)
+![Meowth Pokemon Card](meowth_card.png)
 
 Meowth is a normal type Pokemon that has a start HP of 50, an attack of 10, a weakness to fighting of 2 times, and a resistence to psychic of -30.  If Meowth were to be attacked by a fighting pokemon, the damage to Meowth would be doubled (weakness of 2 times).  If Meowth were to be attackde by a psychic pokemon, it's attack would lose 30 damage points (stopped at 0).
 
