@@ -72,8 +72,6 @@ Your task is to create a class that will take place for the pokecardex.  This cl
 | `heal_party`   | method    | heals the party pokemon to their original starting hp                            |
 | `add_to_party` | method    | adds a `Pokemon` to the party.  It will be added to the end of the party order   |
 
-
-
 In addition to `PokeCardDex` class, the `Pokemon` class will need to be defined.  This class will be used to represent pokemon for the `PokeCardDex` party.  The `Pokemon` class shall have the following attributes/methods:
 
 | name          | attr/meth | description                                                                          |
@@ -85,7 +83,6 @@ In addition to `PokeCardDex` class, the `Pokemon` class will need to be defined.
 | `resiliance`  | attr      | a tuple that represents the energy type and damage offset of the resiliance (if any) |
 | `moves`       | attr      | a list of tuples that represent the name and damage of the moves                     |
 | `is_fainted`  | attr      | a boolean that represents if the pokemon is at 0 HP                                  |
-| `from_json`   | method    | returns a new instance of a Pokemon based on a string that represents a json pokemon |
 
 ## Assumptions
 
@@ -93,13 +90,14 @@ The following are some assumptions that you can take when designing this:
 
 - The move energy type is the same as the pokemon.
 - There is no "energy cost" to performing a move.
-- If the attack requires a coin flip, assume the coin flip was successful 3 times.
+- If the attack requires a coin flip, ignore the actions that are outlined by the coin flip.
 - An evolved pokemon card DOES NOT require the stage 1 predecesssor.
 - The opposing team always goes first.
 - The pokemon name will be unique.
 - The pokemon order will be set before performing a battle.
-- If the attack damage has a modifier such as `+`, then assume that modifier is null (or 0). (Except coin flips).
+- If the attack damage has a modifier such as `+`, then assume that modifier is null (meaning it has no affect on the damage and can be ignored)
 - If the attack damage is empty (most likely due to a more complicated attack) assume a damage of 5 hp.
+- Selecting a move for attack is done by interating over the moves sequencially rotating to the beginning after having exhausted all moves.
 
 ## Expected Behaviors
 
