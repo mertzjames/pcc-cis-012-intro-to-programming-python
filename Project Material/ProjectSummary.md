@@ -97,7 +97,7 @@ The following are some assumptions that you can take when designing this:
 - The pokemon name will be unique.
 - The pokemon order will be set before performing a battle.
 - If the attack damage has a modifier such as `+`, then assume that modifier is null (meaning it has no affect on the damage and can be ignored)
-- If the attack damage is empty (most likely due to a more complicated attack) assume a damage of 5 hp.
+- If the attack damage is empty or `'?'` (most likely due to a more complicated attack) assume a damage of 5 hp.
 - Selecting a move for attack is done by interating over the moves sequencially rotating to the beginning after having exhausted all moves.
 
 ## Expected Behaviors
