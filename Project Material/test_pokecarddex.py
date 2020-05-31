@@ -1,8 +1,9 @@
 import unittest
 import pathlib
 import random
+import sys
 
-from poketools import Pokemon, PokeCardDex
+from pokecarddex import Pokemon, PokeCardDex
 
 class TestPokemon(unittest.TestCase):
     def test_initAndAttrs(self):
@@ -146,3 +147,17 @@ class TestPokeCardDex(unittest.TestCase):
             self.assertEqual(name, poke.name)
             self.assertEqual(hp, poke.hp)
             self.assertEqual(is_fainted, poke.is_fainted)
+
+
+def get_tests():
+    return full_suite()
+
+def full_suite():
+
+    return unittest.TestSuite([
+        unittest.TestLoader().loadTestsFromTestCase(TestPokemon),
+        unittest.TestLoader().loadTestsFromTestCase(TestPokeCardDex)
+    ])
+
+if __name__ == "__main__":
+    unittest.main()
