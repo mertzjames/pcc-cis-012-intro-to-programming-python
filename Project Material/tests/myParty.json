@@ -1,0 +1,461 @@
+[
+  {
+    "artist": "Kimiya Masago",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Metal",
+          "Colorless"
+        ],
+        "damage": "20+",
+        "name": "Steel Beak",
+        "text": "Flip a coin. If heads, this attack does 20 damage plus 10 more damage."
+      },
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "",
+        "name": "Air Cutter",
+        "text": "Flip a coin. If tails, this attack does nothing."
+      }
+    ],
+    "convertedRetreatCost": 2,
+    "hp": "60",
+    "id": "ecard1-27",
+    "imageUrl": "https://images.pokemontcg.io/ecard1/27.png",
+    "imageUrlHiRes": "https://images.pokemontcg.io/ecard1/27_hires.png",
+    "name": "Skarmory",
+    "nationalPokedexNumber": 227,
+    "number": "27",
+    "rarity": "Rare",
+    "resistances": [
+      {
+        "type": "Grass",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "series": "E-Card",
+    "set": "Expedition Base Set",
+    "setCode": "ecard1",
+    "subtype": "Basic",
+    "supertype": "Pokemon",
+    "types": [
+      "Metal"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "x2"
+      }
+    ]
+  },
+  {
+    "artist": "Sumiyoshi Kizuki",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Lightning"
+        ],
+        "damage": "10",
+        "name": "Thundershock",
+        "text": "Flip a coin. If heads, the Defending Pokemon is now Paralyzed."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "hp": "40",
+    "id": "ecard1-119",
+    "imageUrl": "https://images.pokemontcg.io/ecard1/119.png",
+    "imageUrlHiRes": "https://images.pokemontcg.io/ecard1/119_hires.png",
+    "name": "Mareep",
+    "nationalPokedexNumber": 179,
+    "number": "119",
+    "rarity": "Common",
+    "retreatCost": [
+      "Colorless"
+    ],
+    "series": "E-Card",
+    "set": "Expedition Base Set",
+    "setCode": "ecard1",
+    "subtype": "Basic",
+    "supertype": "Pokemon",
+    "types": [
+      "Lightning"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "x2"
+      }
+    ]
+  },
+  {
+    "artist": "Sumiyoshi Kizuki",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "",
+        "name": "Bind Wound",
+        "text": "Flip a coin. If heads, remove 2 damage counters from 1 of your Pokemon (1 if it has only 1)."
+      },
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "",
+        "name": "Dogpile",
+        "text": "Count the number for Pokemon on your Bench. This attack does 10 times that number to the Defending Pokemon, and Chansey does 10 times that number of damage to itself."
+      }
+    ],
+    "convertedRetreatCost": 2,
+    "hp": "90",
+    "id": "ecard1-72",
+    "imageUrl": "https://images.pokemontcg.io/ecard1/72.png",
+    "imageUrlHiRes": "https://images.pokemontcg.io/ecard1/72_hires.png",
+    "name": "Chansey",
+    "nationalPokedexNumber": 113,
+    "number": "72",
+    "rarity": "Uncommon",
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "series": "E-Card",
+    "set": "Expedition Base Set",
+    "setCode": "ecard1",
+    "subtype": "Basic",
+    "supertype": "Pokemon",
+    "types": [
+      "Colorless"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "x2"
+      }
+    ]
+  },
+  {
+    "artist": "Shin-ichi Yoshida",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "20",
+        "name": "Punch",
+        "text": ""
+      },
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Fighting",
+          "Fighting",
+          "Colorless"
+        ],
+        "damage": "50",
+        "name": "Mega Kick",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": "Machop",
+    "hp": "80",
+    "id": "ecard1-85",
+    "imageUrl": "https://images.pokemontcg.io/ecard1/85.png",
+    "imageUrlHiRes": "https://images.pokemontcg.io/ecard1/85_hires.png",
+    "name": "Machoke",
+    "nationalPokedexNumber": 67,
+    "number": "85",
+    "rarity": "Uncommon",
+    "retreatCost": [
+      "Colorless"
+    ],
+    "series": "E-Card",
+    "set": "Expedition Base Set",
+    "setCode": "ecard1",
+    "subtype": "Stage 1",
+    "supertype": "Pokemon",
+    "types": [
+      "Fighting"
+    ],
+    "weaknesses": [
+      {
+        "type": "Psychic",
+        "value": "x2"
+      }
+    ]
+  },
+  {
+    "artist": "Miki Tanaka",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "",
+        "name": "Hypnotic Gaze",
+        "text": "The Defending Pokemon is now Asleep."
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Grass",
+          "Colorless"
+        ],
+        "damage": "20x",
+        "name": "Double Scratch",
+        "text": "Flip 2 coins. This attack does 20 damage times the number of heads."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "hp": "40",
+    "id": "ecard1-99",
+    "imageUrl": "https://images.pokemontcg.io/ecard1/99.png",
+    "imageUrlHiRes": "https://images.pokemontcg.io/ecard1/99_hires.png",
+    "name": "Chikorita",
+    "nationalPokedexNumber": 152,
+    "number": "99",
+    "rarity": "Common",
+    "resistances": [
+      {
+        "type": "Water",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "series": "E-Card",
+    "set": "Expedition Base Set",
+    "setCode": "ecard1",
+    "subtype": "Basic",
+    "supertype": "Pokemon",
+    "types": [
+      "Grass"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "x2"
+      }
+    ]
+  },
+  {
+    "artist": "Mitsuhiro Arita",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "10x",
+        "name": "Fury Attack",
+        "text": "Flip 2 coins. This attack does 10 damage times the number of heads."
+      }
+    ],
+    "hp": "50",
+    "id": "base4-72",
+    "imageUrl": "https://images.pokemontcg.io/base4/72.png",
+    "imageUrlHiRes": "https://images.pokemontcg.io/base4/72_hires.png",
+    "name": "Doduo",
+    "nationalPokedexNumber": 84,
+    "number": "72",
+    "rarity": "Common",
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "series": "Base",
+    "set": "Base Set 2",
+    "setCode": "base4",
+    "subtype": "Basic",
+    "supertype": "Pokemon",
+    "types": [
+      "Colorless"
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "x2"
+      }
+    ]
+  },
+  {
+    "ability": {
+      "name": "Moonlight",
+      "text": "Once during your turn (before you attack), you may put a card from your hand back on your deck. If you do so, search your deck for a basic Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward. This power can't be used if Clefable is affected by a Special Condition.",
+      "type": "Poke-Power"
+    },
+    "artist": "Kagemaru Himeno",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "20x",
+        "name": "Doubleslap",
+        "text": "Flip 2 coins. This attack does 20 damage times the number of heads."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": "Clefairy",
+    "hp": "70",
+    "id": "ecard1-7",
+    "imageUrl": "https://images.pokemontcg.io/ecard1/7.png",
+    "imageUrlHiRes": "https://images.pokemontcg.io/ecard1/7_hires.png",
+    "name": "Clefable",
+    "nationalPokedexNumber": 36,
+    "number": "7",
+    "rarity": "Rare",
+    "retreatCost": [
+      "Colorless"
+    ],
+    "series": "E-Card",
+    "set": "Expedition Base Set",
+    "setCode": "ecard1",
+    "subtype": "Stage 1",
+    "supertype": "Pokemon",
+    "types": [
+      "Colorless"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "x2"
+      }
+    ]
+  },
+  {
+    "artist": "Kagemaru Himeno",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "20",
+        "name": "Scratch",
+        "text": ""
+      },
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "30",
+        "name": "Pounce",
+        "text": "If the Defending Pokemon attacks Persian during your opponent's next turn, any damage done by the attack is reduce by 10 (after applying Weakness and Resistance). (Benching either Pokemon ends this effect.)"
+      }
+    ],
+    "evolvesFrom": "Meowth",
+    "hp": "70",
+    "id": "base4-56",
+    "imageUrl": "https://images.pokemontcg.io/base4/56.png",
+    "imageUrlHiRes": "https://images.pokemontcg.io/base4/56_hires.png",
+    "name": "Persian",
+    "nationalPokedexNumber": 53,
+    "number": "56",
+    "rarity": "Uncommon",
+    "resistances": [
+      {
+        "type": "Psychic",
+        "value": "-30"
+      }
+    ],
+    "series": "Base",
+    "set": "Base Set 2",
+    "setCode": "base4",
+    "subtype": "Stage 1",
+    "supertype": "Pokemon",
+    "types": [
+      "Colorless"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "x2"
+      }
+    ]
+  },
+  {
+    "artist": "Hajime Kusajima",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Grass",
+          "Colorless"
+        ],
+        "damage": "",
+        "name": "Foul Gas",
+        "text": "Flip a coin. If heads, the Defending Pokemon is now Poisoned. If tails, the Defending Pokemon is now Confused."
+      },
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Grass",
+          "Grass",
+          "Colorless"
+        ],
+        "damage": "60",
+        "name": "Misfire",
+        "text": "Flip a coin. If tails, put 6 damage counters on Weezing."
+      }
+    ],
+    "convertedRetreatCost": 2,
+    "evolvesFrom": "Koffing",
+    "hp": "80",
+    "id": "ecard1-32",
+    "imageUrl": "https://images.pokemontcg.io/ecard1/32.png",
+    "imageUrlHiRes": "https://images.pokemontcg.io/ecard1/32_hires.png",
+    "name": "Weezing",
+    "nationalPokedexNumber": 110,
+    "number": "32",
+    "rarity": "Rare",
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "series": "E-Card",
+    "set": "Expedition Base Set",
+    "setCode": "ecard1",
+    "subtype": "Stage 1",
+    "supertype": "Pokemon",
+    "types": [
+      "Grass"
+    ],
+    "weaknesses": [
+      {
+        "type": "Psychic",
+        "value": "x2"
+      }
+    ]
+  }
+]

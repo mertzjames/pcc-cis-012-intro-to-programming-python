@@ -1,0 +1,512 @@
+[
+  {
+    "artist": "Ken Sugimori",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Fighting"
+        ],
+        "damage": "20",
+        "name": "Jab",
+        "text": ""
+      },
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Fighting",
+          "Fighting",
+          "Colorless"
+        ],
+        "damage": "40",
+        "name": "Special Punch",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 2,
+    "hp": "70",
+    "id": "base4-8",
+    "imageUrl": "https://images.pokemontcg.io/base4/8.png",
+    "imageUrlHiRes": "https://images.pokemontcg.io/base4/8_hires.png",
+    "name": "Hitmonchan",
+    "nationalPokedexNumber": 107,
+    "number": "8",
+    "rarity": "Rare",
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "series": "Base",
+    "set": "Base Set 2",
+    "setCode": "base4",
+    "subtype": "Basic",
+    "supertype": "Pokemon",
+    "types": [
+      "Fighting"
+    ],
+    "weaknesses": [
+      {
+        "type": "Psychic",
+        "value": "x2"
+      }
+    ]
+  },
+  {
+    "ability": {
+      "name": "Soothing Aroma",
+      "text": "Once during your turn (before your attack), you may flip a coin. If heads, remove 1 damage counter from each of your Pokemon that has any. This power can't be used if Meganium is affected by a Special Condition.",
+      "type": "Poke-Power"
+    },
+    "artist": "Hajime Kusajima",
+    "attacks": [
+      {
+        "convertedEnergyCost": 4,
+        "cost": [
+          "Grass",
+          "Grass",
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "40",
+        "name": "Poisonpowder",
+        "text": "The Defending Pokemon is now Poisoned."
+      }
+    ],
+    "convertedRetreatCost": 2,
+    "evolvesFrom": "Bayleef",
+    "hp": "100",
+    "id": "ecard1-18",
+    "imageUrl": "https://images.pokemontcg.io/ecard1/18.png",
+    "imageUrlHiRes": "https://images.pokemontcg.io/ecard1/18_hires.png",
+    "name": "Meganium",
+    "nationalPokedexNumber": 154,
+    "number": "18",
+    "rarity": "Rare",
+    "resistances": [
+      {
+        "type": "Water",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "series": "E-Card",
+    "set": "Expedition Base Set",
+    "setCode": "ecard1",
+    "subtype": "Stage 2",
+    "supertype": "Pokemon",
+    "types": [
+      "Grass"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "x2"
+      }
+    ]
+  },
+  {
+    "artist": "Mitsuhiro Arita",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Psychic"
+        ],
+        "damage": "10",
+        "name": "Psyshock",
+        "text": "Flip a coin. If heads, the Defending Pokemon is now Paralyzed."
+      }
+    ],
+    "hp": "30",
+    "id": "base1-43",
+    "imageUrl": "https://images.pokemontcg.io/base1/43.png",
+    "imageUrlHiRes": "https://images.pokemontcg.io/base1/43_hires.png",
+    "name": "Abra",
+    "nationalPokedexNumber": 63,
+    "number": "43",
+    "rarity": "Common",
+    "series": "Base",
+    "set": "Base",
+    "setCode": "base1",
+    "subtype": "Basic",
+    "supertype": "Pokemon",
+    "types": [
+      "Psychic"
+    ],
+    "weaknesses": [
+      {
+        "type": "Psychic",
+        "value": "x2"
+      }
+    ]
+  },
+  {
+    "artist": "Ken Sugimori",
+    "attacks": [
+      {
+        "convertedEnergyCost": 4,
+        "cost": [
+          "Lightning",
+          "Lightning",
+          "Lightning",
+          "Colorless"
+        ],
+        "damage": "60",
+        "name": "Thunder",
+        "text": "Flip a coin. If tails, Zapdos does 30 damage to itself."
+      },
+      {
+        "convertedEnergyCost": 4,
+        "cost": [
+          "Lightning",
+          "Lightning",
+          "Lightning",
+          "Lightning"
+        ],
+        "damage": "100",
+        "name": "Thunderbolt",
+        "text": "Discard all Energy cards attached to Zapdos in order to use this attack."
+      }
+    ],
+    "convertedRetreatCost": 3,
+    "hp": "90",
+    "id": "base1-16",
+    "imageUrl": "https://images.pokemontcg.io/base1/16.png",
+    "imageUrlHiRes": "https://images.pokemontcg.io/base1/16_hires.png",
+    "name": "Zapdos",
+    "nationalPokedexNumber": 145,
+    "number": "16",
+    "rarity": "Rare",
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ],
+    "series": "Base",
+    "set": "Base",
+    "setCode": "base1",
+    "subtype": "Basic",
+    "supertype": "Pokemon",
+    "types": [
+      "Lightning"
+    ]
+  },
+  {
+    "artist": "Kagemaru Himeno",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "20",
+        "name": "Whirlwind",
+        "text": "If your opponent has any Benched Pokemon, he or she chooses 1 of them and switches it with the Defending Pokemon. (Do the damage before switching the Pokemon.)"
+      },
+      {
+        "convertedEnergyCost": 4,
+        "cost": [
+          "Grass",
+          "Grass",
+          "Grass",
+          "Grass"
+        ],
+        "damage": "40",
+        "name": "Mega Drain",
+        "text": "Remove a number of damage counters from Butterfree equal to half the damage done to the Defending Pokemon (after applying Weakness and Resistance) (rounded up to the nearest 10)."
+      }
+    ],
+    "evolvesFrom": "Metapod",
+    "hp": "70",
+    "id": "base4-34",
+    "imageUrl": "https://images.pokemontcg.io/base4/34.png",
+    "imageUrlHiRes": "https://images.pokemontcg.io/base4/34_hires.png",
+    "name": "Butterfree",
+    "nationalPokedexNumber": 12,
+    "number": "34",
+    "rarity": "Uncommon",
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "series": "Base",
+    "set": "Base Set 2",
+    "setCode": "base4",
+    "subtype": "Stage 2",
+    "supertype": "Pokemon",
+    "types": [
+      "Grass"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "x2"
+      }
+    ]
+  },
+  {
+    "artist": "Kyoko Umemoto",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Grass"
+        ],
+        "damage": "",
+        "name": "Poison Sting",
+        "text": "Flip a coin. If heads, the Defending Pokemon is now Poisoned."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "hp": "50",
+    "id": "ecard1-108",
+    "imageUrl": "https://images.pokemontcg.io/ecard1/108.png",
+    "imageUrlHiRes": "https://images.pokemontcg.io/ecard1/108_hires.png",
+    "name": "Ekans",
+    "nationalPokedexNumber": 23,
+    "number": "108",
+    "rarity": "Common",
+    "retreatCost": [
+      "Colorless"
+    ],
+    "series": "E-Card",
+    "set": "Expedition Base Set",
+    "setCode": "ecard1",
+    "subtype": "Basic",
+    "supertype": "Pokemon",
+    "types": [
+      "Grass"
+    ],
+    "weaknesses": [
+      {
+        "type": "Psychic",
+        "value": "x2"
+      }
+    ]
+  },
+  {
+    "artist": "Tomoaki Imakuni",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "",
+        "name": "Conversion 1",
+        "text": "If the Defending Pokemon has a Weakness, you may change it to a type of your choice other than Colorless."
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "",
+        "name": "Conversion 2",
+        "text": "Change Porygon's Resistance to a type of your choice other than Colorless."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "hp": "30",
+    "id": "base1-39",
+    "imageUrl": "https://images.pokemontcg.io/base1/39.png",
+    "imageUrlHiRes": "https://images.pokemontcg.io/base1/39_hires.png",
+    "name": "Porygon",
+    "nationalPokedexNumber": 137,
+    "number": "39",
+    "rarity": "Uncommon",
+    "resistances": [
+      {
+        "type": "Psychic",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "series": "Base",
+    "set": "Base",
+    "setCode": "base1",
+    "subtype": "Basic",
+    "supertype": "Pokemon",
+    "types": [
+      "Colorless"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "x2"
+      }
+    ]
+  },
+  {
+    "artist": "Mitsuhiro Arita",
+    "attacks": [
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Water",
+          "Water",
+          "Colorless"
+        ],
+        "damage": "50",
+        "name": "Aurora Beam",
+        "text": ""
+      },
+      {
+        "convertedEnergyCost": 4,
+        "cost": [
+          "Water",
+          "Water",
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "30",
+        "name": "Ice Beam",
+        "text": "Flip a coin. If heads, the Defending Pokemon is now Paralyzed."
+      }
+    ],
+    "convertedRetreatCost": 3,
+    "evolvesFrom": "Seel",
+    "hp": "80",
+    "id": "base4-36",
+    "imageUrl": "https://images.pokemontcg.io/base4/36.png",
+    "imageUrlHiRes": "https://images.pokemontcg.io/base4/36_hires.png",
+    "name": "Dewgong",
+    "nationalPokedexNumber": 87,
+    "number": "36",
+    "rarity": "Uncommon",
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ],
+    "series": "Base",
+    "set": "Base Set 2",
+    "setCode": "base4",
+    "subtype": "Stage 1",
+    "supertype": "Pokemon",
+    "types": [
+      "Water"
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "x2"
+      }
+    ]
+  },
+  {
+    "ability": {
+      "name": "Major Tsunami",
+      "text": "Once during your turn (before you attack), if Feraligatr is your Active Pokemon and if your opponent has any Benched Pokemon, your opponent switches his or her Active Pokemon with 1 of his or her Benched Pokemon. Either way, if you have any Benched Pokemon, switch Feraligatr with 1 of them. This power can't be used if Feraligatr is affected by a Special Condition.",
+      "type": "Poke-Power"
+    },
+    "artist": "Mitsuhiro Arita",
+    "attacks": [
+      {
+        "convertedEnergyCost": 4,
+        "cost": [
+          "Water",
+          "Water",
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "",
+        "name": "Rending Jaws",
+        "text": "If there are no damage counters on the Defending Pokemon, this attack's base damage is 40 instead of 70."
+      }
+    ],
+    "convertedRetreatCost": 3,
+    "evolvesFrom": "Croconaw",
+    "hp": "120",
+    "id": "ecard1-12",
+    "imageUrl": "https://images.pokemontcg.io/ecard1/12.png",
+    "imageUrlHiRes": "https://images.pokemontcg.io/ecard1/12_hires.png",
+    "name": "Feraligatr",
+    "nationalPokedexNumber": 160,
+    "number": "12",
+    "rarity": "Rare",
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ],
+    "series": "E-Card",
+    "set": "Expedition Base Set",
+    "setCode": "ecard1",
+    "subtype": "Stage 2",
+    "supertype": "Pokemon",
+    "types": [
+      "Water"
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "x2"
+      }
+    ]
+  },
+  {
+    "ability": {
+      "name": "Shift",
+      "text": "Once during your turn (before your attack), you may change the type of Venomoth to the type of any other Pokemon in play other than Colorless. This power can't be used if Venomoth is Asleep, Confused, or Paralyzed.",
+      "type": "Pokemon Power"
+    },
+    "artist": "Ken Sugimori",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Grass",
+          "Grass"
+        ],
+        "damage": "",
+        "name": "Venom Powder",
+        "text": "Flip a coin. If heads, the Defending Pokemon is now Confused and Poisoned."
+      }
+    ],
+    "evolvesFrom": "Venonat",
+    "hp": "70",
+    "id": "base4-31",
+    "imageUrl": "https://images.pokemontcg.io/base4/31.png",
+    "imageUrlHiRes": "https://images.pokemontcg.io/base4/31_hires.png",
+    "name": "Venomoth",
+    "nationalPokedexNumber": 49,
+    "number": "31",
+    "rarity": "Rare",
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "series": "Base",
+    "set": "Base Set 2",
+    "setCode": "base4",
+    "subtype": "Stage 1",
+    "supertype": "Pokemon",
+    "types": [
+      "Grass"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "x2"
+      }
+    ]
+  }
+]
