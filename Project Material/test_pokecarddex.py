@@ -26,7 +26,7 @@ class TestPokeCardDex(unittest.TestCase):
             self.assertIn(req_attr, dir(card_dex))
 
     def test_initWithJson(self):
-        path = pathlib.Path('tests/myParty.json')
+        path = pathlib.Path('myParty.json')
         card_dex = PokeCardDex(path.absolute())
 
         poke_names = [
@@ -57,7 +57,7 @@ class TestPokeCardDex(unittest.TestCase):
         self.assertEqual(card_dex.party[0].energy_type, 'fire')
 
     def test_setOrder(self):
-        path = pathlib.Path('tests/myParty.json')
+        path = pathlib.Path('myParty.json')
         card_dex = PokeCardDex(path.absolute())
 
         name_order = [
@@ -77,7 +77,7 @@ class TestPokeCardDex(unittest.TestCase):
             self.assertEqual(name, poke.name)
 
     def test_healPokemon(self):
-        path = pathlib.Path('tests/myParty.json')
+        path = pathlib.Path('myParty.json')
         card_dex = PokeCardDex(path.absolute())
 
         expected_hp = [
@@ -101,8 +101,8 @@ class TestPokeCardDex(unittest.TestCase):
             self.assertEqual(hp, poke.hp)
 
     def test_battle(self):
-        my_path = pathlib.Path('tests/myParty.json')
-        rival_path = pathlib.Path('tests/rivalParty.json')
+        my_path = pathlib.Path('myParty.json')
+        rival_path = pathlib.Path('rivalParty.json')
 
         my_dex = PokeCardDex(my_path)
         rival_dex = PokeCardDex(rival_path)
