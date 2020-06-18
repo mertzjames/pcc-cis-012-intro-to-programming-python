@@ -14,7 +14,7 @@ To simplify the behavior of this game, we'll only be working with Pokemon cards.
 
 - selecting a move (if there are multiple)
 - attacking your opponent
-- calculating the damage which is: `base_damage * opposing_weakness (default 1) - opposing resistence
+- calculating the damage which is: `base_damage * opposing_weakness (default 1) - opposing resistence`
 - subtracting the damage from the opposition's HP
 
 This is done for both sides until a pokemon has reached 0 HP, at which point the pokemon has fainted and a new Pokemon must be selected.  The loser is when their party has been eliminated.  Let's take Meowth for example:
@@ -56,13 +56,13 @@ You will be given via a set of json files that will represent sets of pokemon (s
 
 `pokemon_master_list.json` contains all of the possible Pokemon that may be selected.
 
-## Template
+## Template and File Naming
 
-A templated file has been created for you to use `pokecarddex.py`.
+A templated file has been created for you to use `pokecarddex.py`.  You must use this template for your submission keeping the name of the file the same with the exception of prepending your canvas username to the front of file.  For example, if your username is `jmertz` then your submitted file should be `jmertz_pokecarddex.py`.  Note: canvas will append a `-<num>` such as `jmertz_pokecarddex-1.py` to the end of the file when submitting a file multiple times.  This is ok, the important part is following the format `<username>_pokecarddex.py` when submitting to canvas.
 
 ## Outputs
 
-Your task is to create a class that will take place for the pokecardex.  This class will take an optional input for its `__init__` which will be a json file path that represents the pokemon to be prefilled.  This class must have the following attributes/methods:
+Your task is to create a class that will take place for the `PokeCardDex`.  This class will take an optional input for its `__init__` which will be a json file path that represents the pokemon to be prefilled.  **It is important that `__init__` handles the case where no json file path is passed in!**  This class **must** have the following attributes/methods:
 
 | name           | attr/meth | description                                                                      |
 | -------------- | --------- | -------------------------------------------------------------------------------- |
@@ -85,7 +85,18 @@ In addition to `PokeCardDex` class, the `Pokemon` class will need to be defined.
 | `moves`       | attr      | a list of tuples that represent the name and damage of the moves                     |
 | `is_fainted`  | attr      | a boolean that represents if the pokemon is at 0 HP                                  |
 
-## Assumptions
+The `Pokemon` class shall also take the following inputs for the `__init__`:
+
+| name        | input type       | description                                                                    |
+| ----------- | ---------------- | ------------------------------------------------------------------------------ |
+| name        | string           | the name of the pokemon                                                        |
+| start_hp    | int              | the starting (or base) hp of the pokemon                                       |
+| energy_type | string           | the energy type of the pokemon (electric, water, fire, etc,.).                 |
+| weakness    | string           | the energy type the pokemon is weak against                                    |
+| resistance  | string           | the energy type the pokemon is resistant against                               |
+| moves       | tuple (str, int) | a tuple of ((str), (int)) pairs that represent the move name and damage amount |
+
+## Assumptions (IMPORTANT! READ THIS CAREFULLY!)
 
 The following are some assumptions that you can take when designing this:
 
