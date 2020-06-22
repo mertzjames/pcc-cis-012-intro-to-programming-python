@@ -1,3 +1,6 @@
+<a href="https://notebooks.azure.com/kronoskoders/projects/pcc-cis-012">    <img src="https://notebooks.azure.com/launch.svg" /></a>
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mertzjames/pcc-cis-012-intro-to-programming-python/master)
+
 # CIS 012: Introduction to Programming (Python)
 
 This is a repository for the course material used for the Pasadena City College's CIS 012: Introduction to Programming
